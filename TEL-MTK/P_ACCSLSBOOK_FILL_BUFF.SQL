@@ -22,8 +22,10 @@ as
   nAGN_TO               PKG_STD.tREF;
   nRN_S                 PKG_STD.tREF;
   nMAX_RN               PKG_STD.tREF;
-  sNOMEN                DICANLS.ANL_NUMBER%type;
-  sNOMEN_NAME           DICANLS.ANL_NAME%type;
+--  sNOMEN                DICANLS.ANL_NUMBER%type;
+--  sNOMEN_NAME           DICANLS.ANL_NAME%type;
+  sNOMEN                DICNOMNS.NOMEN_CODE%type;
+  sNOMEN_NAME           DICNOMNS.Nomen_Name%type;
   nANL_LEVEL            PKG_STD.tNUMBER;
   nANL_RN               PKG_STD.tREF;
   nNEW_ANL_RN           PKG_STD.tREF;
